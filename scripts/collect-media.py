@@ -44,8 +44,8 @@ for name, base in SOURCES.items():
     pages[name] = []
     for i, page in enumerate(data['A']['A']):
         nodes = list(walk(page))
-        text = [x['A'] for x in nodes if isinstance(x, dict) and x.get('A?') == 'A'
-                and isinstance(x.get('A'), str) and '\n' in x['A']]
+        # Canva exports text either as rich-text runs or compact string arrays.
+        text = list(dict.fromkeys(x for x in nodes if isinstance(x, str) and '\n' in x and x.strip()))
         ids = list(dict.fromkeys(x for x in nodes if isinstance(x, str) and re.fullmatch(r'[MV]A[\w-]{8,}', x)))
         pages[name].append({'page': i + 1, 'texts': text, 'media_ids': ids})
     for asset in data['I']['B']:

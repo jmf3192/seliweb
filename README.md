@@ -6,6 +6,7 @@ Primera versión del portfolio: 13 páginas estáticas, 7 colecciones, 35 imáge
 - [Inventario de los 148 recursos recuperados](docs/media-inventory.json)
 - [Textos y asociación de recursos de las fuentes](docs/source-content.json)
 - [Contenido editable de la web](content.json)
+- [Descarga de los recursos en máxima calidad publicada (470 MB)](https://github.com/jmf3192/seliweb/releases/tag/recursos-canva-2026-09-28)
 
 ## Objetivo
 
@@ -59,6 +60,8 @@ Tomaremos estas ideas como orientación visual, sin copiar contenido, imágenes 
 
 El sitio está en `site/`. GitHub Actions publica exclusivamente esa carpeta en Pages al subir cambios a `main`.
 
+**Estado de Pages:** pendiente de activación. GitHub devuelve que el plan actual no admite Pages para este repositorio privado. Hace falta autorizar el cambio de visibilidad a público o disponer de un plan compatible; el primer flujo de despliegue no se ha completado por este motivo.
+
 ```sh
 # Vista previa (no requiere instalar dependencias)
 python3 -m http.server 4173 --directory site
@@ -79,7 +82,7 @@ python3 scripts/prepare-site-media.py
 python3 scripts/build-site.py
 ```
 
-Los archivos de máxima calidad se conservan en `assets/originals/`. Se excluyen del historial Git junto con los datos brutos de Canva; el inventario permite localizar y verificar cada archivo. Las fuentes tipográficas Barlow Condensed y DM Sans se sirven localmente y sus licencias están incluidas.
+Los archivos de máxima calidad se conservan en `assets/originals/` y en la descarga adjunta a la release `recursos-canva-2026-09-28`. Se excluyen del historial Git junto con los datos brutos de Canva; el inventario permite localizar y verificar cada archivo. Las fuentes tipográficas Barlow Condensed y DM Sans se sirven localmente y sus licencias están incluidas.
 
 ## Validación del modelo
 
