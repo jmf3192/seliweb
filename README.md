@@ -8,9 +8,6 @@ Primera versión del portfolio: 13 páginas estáticas, 7 colecciones, 35 imáge
 - [Contenido editable de la web](content.json)
 - [Descarga de los recursos en máxima calidad publicada (470 MB)](https://github.com/jmf3192/seliweb/releases/tag/recursos-canva-2026-09-28)
 
-## Objetivo
-
-Crear una web de portfolio visual para Araceli Sansano. La información de partida procede de sus webs actuales en Canva; [Elena Ventura](https://www.byelenaventura.com/) es la inspiración visual principal, con [María Orellana](https://mariaorellana.es/) y [Rosa Copado](https://rosacopado.cargo.site/) como referencias alternativas.
 
 ## Fuentes de contenido actuales
 
