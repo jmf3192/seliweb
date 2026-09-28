@@ -25,13 +25,6 @@ Estas páginas son la fuente inicial para seleccionar y adaptar textos, proyecto
 - **Redes:** Instagram `@aracelisansano`; el portfolio general también enlaza a TikTok con el mismo usuario.
 - **Contacto:** la web de hoteles muestra `aracelisansano@gmail.com` y un teléfono; el portfolio general muestra `araceli.sa@hotmail.com`. Hay que decidir qué datos publicar en la nueva web.
 
-## Referencias de diseño
-
-- **Elena Ventura (principal):** portada centrada en imágenes grandes de proyectos, composición limpia sobre fondo claro, nombre destacado y navegación por trabajos, categorías y contacto.
-- **María Orellana:** composición editorial más libre, con imágenes de distintos tamaños y bastante espacio entre ellas; navegación mínima para explorar proyectos y acceder a la información personal.
-- **Rosa Copado:** cuadrícula fotográfica, cabecera discreta y acceso directo a trabajos, contacto e Instagram.
-
-Tomaremos estas ideas como orientación visual, sin copiar contenido, imágenes ni diseño de forma literal.
 
 ## Propuesta inicial de la web
 
