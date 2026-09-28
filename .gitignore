@@ -1,0 +1,6 @@
+.DS_Store
+source-pages/
+assets/originals/
+assets/.download/
+node_modules/
+test-results/

@@ -1,4 +1,11 @@
-# Web de Araceli Sansano · brief inicial
+# Web de Araceli Sansano
+
+Primera versión del portfolio: 13 páginas estáticas, 7 colecciones, 35 imágenes seleccionadas y 8 vídeos. Diseño adaptable a móvil, galerías ampliables y vídeos con controles.
+
+- [Esquema de contenidos y decisiones pendientes](docs/CONTENT-PLAN.md)
+- [Inventario de los 148 recursos recuperados](docs/media-inventory.json)
+- [Textos y asociación de recursos de las fuentes](docs/source-content.json)
+- [Contenido editable de la web](content.json)
 
 ## Objetivo
 
@@ -33,7 +40,7 @@ Tomaremos estas ideas como orientación visual, sin copiar contenido, imágenes 
 1. **Inicio / proyectos destacados:** una selección de trabajos con fotografías o vídeos de gran tamaño. Cada pieza llevará a su ficha.
 2. **Ficha de proyecto:** título, imágenes o vídeo y, cuando proceda, una breve descripción, cliente, año y créditos.
 3. **Sobre mí / contacto:** presentación breve, correo y enlaces profesionales o sociales.
-4. **Navegación:** nombre o marca visible y pocos enlaces. Las categorías se definirán según el material disponible.
+4. **Navegación:** selección, hoteles, fotografía, vídeo y contacto.
 
 ## Dirección visual y experiencia
 
@@ -48,6 +55,39 @@ Tomaremos estas ideas como orientación visual, sin copiar contenido, imágenes 
 - Correo y teléfono que se publicarán, idioma o idiomas y dominio definitivo.
 - Preferencias concretas de tipografía, color y composición dentro de las referencias.
 
-## Estado
+## Desarrollo y publicación
 
-Este documento es el punto de partida. La estructura y el diseño final se ajustarán al contenido real y a las decisiones anteriores.
+El sitio está en `site/`. GitHub Actions publica exclusivamente esa carpeta en Pages al subir cambios a `main`.
+
+```sh
+# Vista previa (no requiere instalar dependencias)
+python3 -m http.server 4173 --directory site
+
+# Regenerar las páginas después de editar content.json o el generador
+python3 scripts/build-site.py
+
+# Comprobar referencias locales y estructura
+python3 scripts/check-site.py
+node --check site/assets/main.js
+```
+
+Para volver a recuperar y preparar los recursos se necesitan Python, Pillow y FFmpeg:
+
+```sh
+python3 scripts/collect-media.py
+python3 scripts/prepare-site-media.py
+python3 scripts/build-site.py
+```
+
+Los archivos de máxima calidad se conservan en `assets/originals/`. Se excluyen del historial Git junto con los datos brutos de Canva; el inventario permite localizar y verificar cada archivo. Las fuentes tipográficas Barlow Condensed y DM Sans se sirven localmente y sus licencias están incluidas.
+
+## Validación del modelo
+
+- Comprobadas 13 páginas HTML y 416 referencias locales, incluidos imágenes, vídeos y tipografías.
+- Revisado el diseño en escritorio y en anchuras móviles de 390 y 320 píxeles.
+- Verificado el visor de fotografías: apertura, siguiente imagen, cierre con Escape y devolución del foco.
+- Verificada la reproducción de vídeo y la carga diferida del resto de las piezas.
+
+## Estado editorial
+
+El modelo está preparado para revisión. La selección, las agrupaciones editoriales, los textos y el correo de contacto son decisiones iniciales que se detallan en el esquema de contenidos. Faltan títulos y créditos de algunas piezas y subtítulos o transcripciones revisados para vídeos con voz.

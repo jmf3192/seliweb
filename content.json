@@ -1,0 +1,87 @@
+{
+  "name": "Araceli Sansano",
+  "email": "aracelisansano@gmail.com",
+  "instagram": "https://www.instagram.com/aracelisansano/",
+  "tiktok": "https://www.tiktok.com/@aracelisansano",
+  "portrait": "MAG5357HWW8",
+  "projects": [
+    {
+      "slug": "hoteles-y-experiencias",
+      "title": "Hoteles & experiencias",
+      "subtitle": "Fotografía · Espacios · Lifestyle",
+      "categories": ["hoteles", "fotografia"],
+      "cover": "MAGwtpu_GCA",
+      "second_cover": "MAGwtrkwh74",
+      "description": "Espacios, detalles y momentos que cuentan cómo se siente estar allí. Una selección de fotografía para hoteles y alojamientos, desde la calma de una habitación hasta la vida que sucede fuera de ella.",
+      "images": ["MAGwtpu_GCA", "MAGwtrkwh74", "MAGwtqOkoQI", "MAGpI278X5s", "MAG2i4YVJBs", "MAG2iyhqBcw", "MAHJ04gqcAs", "MAGpI_p_Emc", "MAHJ2MRQzrA", "MAHJ06bqVGs"],
+      "videos": [],
+      "featured": true
+    },
+    {
+      "slug": "hotel-daia",
+      "title": "Hotel Daia",
+      "subtitle": "Fotografía · Creación de contenido",
+      "categories": ["hoteles", "fotografia"],
+      "cover": "MAG6eCIPH2o",
+      "description": "Durante los cinco meses de temporada, creé contenido para mostrar los talleres, las actividades y los eventos del hotel en tiempo real a través de stories, además de piezas para el feed. Una mirada cercana a la experiencia de alojarse en Daia.",
+      "images": ["MAG6eCIPH2o", "MAG6ePp0OHk", "MAG6eBjtZWA", "MAG6eMUJSPo", "MAG6eHLNvrY", "MAG6eBoTXuA", "MAG6ePdG-ak", "MAG6eA4PljA", "MAG6eP31EKg"],
+      "videos": [],
+      "featured": true
+    },
+    {
+      "slug": "historias-en-movimiento",
+      "title": "Historias en movimiento",
+      "subtitle": "Vídeo · Storytelling · Edición",
+      "categories": ["video"],
+      "cover_video": "VAGpJBWB3XA",
+      "description": "El ritmo, los pequeños gestos y la luz. Una selección de vídeos de mi portfolio en los que la edición da forma a una historia y la acerca a quien la ve.",
+      "images": [],
+      "videos": ["VAGpJBWB3XA", "VAGwcdeqFPA", "VAGwcZiHOQw", "VAG4ruhb16I", "VAHTwc0lxaY", "VAHTwcH4q6c"],
+      "featured": true
+    },
+    {
+      "slug": "talleres-y-encuentros",
+      "title": "Talleres & encuentros",
+      "subtitle": "Fotografía · Experiencias",
+      "categories": ["hoteles", "fotografia"],
+      "cover": "MAHJ2GgyURk",
+      "description": "Manos que crean, conversaciones y momentos compartidos. Fotografía y contenido para dar vida a los talleres, actividades y encuentros que forman parte de una experiencia.",
+      "images": ["MAHJ2GgyURk", "MAHJ2FrHFO4", "MAHJ2B31xas", "MAHJ2KP37bM"],
+      "videos": [],
+      "featured": true
+    },
+    {
+      "slug": "la-palapa",
+      "title": "La Palapa",
+      "subtitle": "TikTok · Storytelling · Edición",
+      "categories": ["video"],
+      "cover_video": "VAG6exc3aSY",
+      "description": "Storytelling, grabación y edición para el contenido de TikTok del club La Palapa. Piezas pensadas para conectar con su comunidad a través del lenguaje y el ritmo de la plataforma.",
+      "images": [],
+      "videos": ["VAG6exc3aSY", "VAG6e-8IS88"],
+      "featured": true
+    },
+    {
+      "slug": "vida-en-los-detalles",
+      "title": "La vida en los detalles",
+      "subtitle": "Fotografía · Luz · Instantes",
+      "categories": ["fotografia"],
+      "cover": "MAG5OCy0MyI",
+      "description": "Una luz que se cuela, una mesa preparada, un gesto cotidiano. Fotografías de mi portfolio que encuentran una historia en lo pequeño.",
+      "images": ["MAG5OCy0MyI", "MAG5OLcSs08", "MAG5OIDavs0", "MAG5OWMluWA", "MAG5OQq2WWI", "MAGwccjnGuM", "MAGXmSo7cw4", "MAGYU6kgFFs"],
+      "videos": [],
+      "featured": true
+    },
+    {
+      "slug": "vacaciones-desconecta",
+      "title": "Vacaciones Desconecta",
+      "subtitle": "Contenido · Estrategia · Social media",
+      "categories": ["hoteles"],
+      "cover": "MAG6efnj5fE",
+      "description": "Creación de contenido y gestión de Instagram para el hotel y retiro Vacaciones Desconecta. Una selección del trabajo de comunicación y organización visual de su perfil.",
+      "images": ["MAG6efnj5fE", "MAG6eekUOxw", "MAG6eeMXvBU"],
+      "videos": [],
+      "featured": false
+    }
+  ]
+}
